@@ -148,6 +148,12 @@ class CAR(Platforms):
     [FordCarDocs("Ford Ranger 2024", "Adaptive Cruise Control with Lane Centering", support_type=SupportType.REVIEW)],
     CarSpecs(mass=2000, wheelbase=3.27, steerRatio=17.0),
   )
+  Lincoln_Nautilus = FordPlatformConfig(
+    [
+      FordCarDocs("Lincoln_Nautilus 2018-21", "Adaptive Cruise Control with Lane Centering"), 
+    ],
+    CarSpecs(mass=2050, wheelbase=3.025, steerRatio=18.8),
+  )
 
 
 # FW response contains a combined software and part number
